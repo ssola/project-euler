@@ -22,11 +22,11 @@ def isPrime(num):
 
     return True
 
-summation = 0
-index = 0
+summation = 2
+index = 1
 
 while index < 2000000:
-    index += 1
+    index += 2
     if(isPrime(index)):
         summation += index
         print index, summation
